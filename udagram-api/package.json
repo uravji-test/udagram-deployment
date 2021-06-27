@@ -14,7 +14,7 @@
     "clean": "rm -rf dist/ || true",
     "build": "npm run clean && tsc && cp .npmrc dist/.npmrc && cp package.json dist/package.json && cd dist && zip -r archive.zip . && cd ..",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "eb deploy"
+    "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh"
   },
   "keywords": [],
   "author": "Gabriel Ruttner",
