@@ -8,5 +8,6 @@
 ## Main App Dependencies
 - Nodejs
 - NPM
-- Angular
-- 
+- Angular CLI
+- Elastic Beanstalk CLI
+- Amazon Web Services CLI
